@@ -16,7 +16,7 @@ public class GitHubUserUrls: Decodable {
 
     public var repos: String
   
-    internal init(
+    public init(
                 url: String , 
                 avatar: String , 
                 html: String , 
